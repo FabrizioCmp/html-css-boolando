@@ -27,6 +27,7 @@ ul{
 .flex{
     display: flex;
 }
+
 .center{
     justify-content: center;
     align-items: center;
@@ -51,3 +52,19 @@ ul{
     width: 16px;
 }
 
+.layout-main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    padding: 2rem 0;
+}
+
+.card-size{
+    width: 32%;
+}
+
+.card-size img{
+    width: 100%;
+}
