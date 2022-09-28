@@ -141,6 +141,7 @@ footer{
     list-style: none;
     gap: 1rem;
     font-size: x-small;
+    align-items: center;
 }
 
 .legal > div{
@@ -151,4 +152,20 @@ footer{
 .social{
     display: flex;
     flex-direction: column;
-    
+    font-size: small;
+    row-gap: 0.5rem;
+    align-items: center;
+}
+
+.box-icon{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0% .2rem;
+    border-radius: 2px;
+}
+
+.box-icon > img{
+    width: 1rem;
+}
