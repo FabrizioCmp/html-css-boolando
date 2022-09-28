@@ -78,7 +78,16 @@ footer{
 .card-size img{
     width: 100%;
 }
-
+.img-hvr{
+    display: none;
+}
+ 
+.card-size:hover .img-hvr{
+    display: inline-block;
+}
+.card-size:hover .img{
+    display: none;
+}
 .box1{
     position: absolute;
     top: .5rem;
