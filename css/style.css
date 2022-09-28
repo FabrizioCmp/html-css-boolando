@@ -68,3 +68,23 @@ ul{
 .card-size img{
     width: 100%;
 }
+
+.brand{
+    font-size: x-small;
+    color: gray;
+}
+.description{
+    font-size: small;
+}
+.price-layout{
+    gap: .5rem;
+}
+.final-price{
+    font-size: x-small;
+    color: red
+}
+.disc-price{
+    font-size: x-small;
+    color: gray;
+    text-decoration: line-through;
+}
